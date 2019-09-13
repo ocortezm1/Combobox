@@ -1,5 +1,5 @@
 <?php
-    include "../db.php";
+    include "db.php";
     $con = connect();
     $sql="SELECT codigoespecialidad,nombreespecialidad FROM ESPECIALIDAD";
     $resultado = $con->query($sql);
