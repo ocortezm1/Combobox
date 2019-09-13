@@ -4,7 +4,7 @@
     $sql="SELECT codigoespecialidad,nombreespecialidad FROM ESPECIALIDAD";
     $resultado = $con->query($sql);
 
-    $html= "<option value='0'>Especialidad</option>";
+    $html= "<option value='0'>Seleccione Especialidad</option>";
 
 	while($rowN = $resultado->fetch_assoc())
 	{
